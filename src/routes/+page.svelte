@@ -1,8 +1,22 @@
 <script lang="ts">
-	import { Carrusel, CarruselSlide } from 'carrusel';
-	import type { Item } from './+page.server';
+	type Image = {
+		alt: string;
+		src: string;
+	}
 
-	export let data;
+	type Item = {
+		id: number;
+		label: string;
+		images: Image[];
+		desc: string;
+		url?: string;
+	}
+
+	import { projs } from '$lib/data.js'
+	
+	
+	import { Carrusel, CarruselSlide } from 'carrusel';
+	
 
   let now = (new Date()).getFullYear()
 	let visible = false;
@@ -10,7 +24,7 @@
 
 	const toggle = (index: number) => {
 		visible = !visible;
-		current = data.projs[index];
+		current = projs[index];
 	};
 
 	const close = () => {
@@ -42,7 +56,7 @@
 	<h1>历史项目展示</h1>
   <p>此页面由SvelteKit开发 部署在Cloudflare Pages服务上</p>
 	<ul>
-		{#each data.projs as { url, label, desc }, index}
+		{#each projs as { url, label, desc }, index}
 			<li>
 				<h2>{label}</h2>
 				<p>{desc} {url ? `【网址】${url}` : ''}</p>
