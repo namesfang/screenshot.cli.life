@@ -58,13 +58,17 @@
 	<ul>
 		{#each projs as { url, label, desc }, index}
 			<li>
-				<h2>{label}</h2>
-				<p>{desc} {url ? `【网址】${url}` : ''}</p>
-        {#if url}
-          <a target="_blank" href={url}>访问链接</a>
-        {:else}
-				  <button on:click={() => toggle(index)} type="button">查看截图</button>
-        {/if}
+				<div class="md">
+					<h2>{label}</h2>
+					<p>{desc} {url ? `【网址】${url}` : ''}</p>
+				</div>
+				<div class="et">
+					{#if url}
+          	<a target="_blank" href={url}>访问链接</a>
+					{:else}
+						<button on:click={() => toggle(index)} type="button">查看截图</button>
+					{/if}
+				</div>
 			</li>
 		{/each}
 	</ul>
@@ -96,8 +100,7 @@
 	}
 
 	main {
-		max-width: 1200px;
-    min-width: 860px;
+		max-width: 900px;
 		height: auto;
 		overflow: hidden;
 		margin: 0 auto;
@@ -119,55 +122,59 @@
 			margin: 0;
 			padding: 0;
 			li {
-				list-style: none;
-				margin-bottom: 1rem;
 				color: #393939;
-				background-color: var(--light-color);
-				display: block;
+				list-style: none;
 				padding: 18px 12px;
-				text-decoration: none;
-				position: relative;
+				margin-bottom: 1rem;
+				display: flex;
+				background-color: var(--light-color);
 
 				&:last-child {
 					margin: 0;
 				}
 
-				h2 {
-					font-size: 18px;
-					line-height: 30px;
-          color: var(--dark-color);
-					margin: 0;
+				.md {
+					flex: 1;
+					padding-right: 12px;
+					h2 {
+						font-size: 18px;
+						line-height: 30px;
+						color: var(--dark-color);
+						margin: 0;
+					}
+
+					p {
+						font-size: 14px;
+						color: #686868;
+						margin: 6px 0 0 0;
+					}
 				}
 
-				p {
-          font-size: 14px;
-					color: #686868;
-					margin: 6px 0 0 0;
-				}
-
-        a,
-				button {
+				.et {
 					width: 80px;
-					height: 32px;
-					text: {
-            align: center;
-            decoration: none;
-          }          
-          font-size: 14px;
-					line-height: 32px;
-					border: none;
-					background-color: var(--dark-color);
-					color: #fff;
-					position: absolute;
-					right: 2rem;
-					top: 50%;
-					margin-top: -16px;
-					display: block;
-				}
+					display: flex;
+					align-items: center;
+					a,
+					button {
+						width: 80px;
+						height: 32px;
+						text: {
+							align: center;
+							decoration: none;
+						}          
+						font-size: 14px;
+						line-height: 32px;
+						border: none;
+						background-color: var(--dark-color);
+						color: #fff;
+						display: block;
+					}
 
-        a {
-          background-color: #f73030;
-        }
+					a {
+						background-color: #f73030;
+					}
+				}
+        
 			}
 		}
 

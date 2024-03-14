@@ -1,7 +1,7 @@
 export const projs = [
   {
     "label": "房屋租赁平台-管家端App",
-    "desc": "使用UniApp(Vue3+pinia)实现一套代码发布安卓和IOS(已上架到appstore)",
+    "desc": "主导开发使用UniApp(Vue3+pinia)实现一套代码发布安卓和IOS(已上架到appstore)",
     "id": 1,
     "images": [
       {
@@ -146,7 +146,7 @@ export const projs = [
   },
   {
     "label": "房屋租赁平台-官网",
-    "desc": "使用Nuxtjs开发，对SEO友好支持",
+    "desc": "独立开发 | 使用Nuxtjs开发，对SEO友好支持",
     "id": 4,
     "images": [
       {
@@ -208,7 +208,7 @@ export const projs = [
   },
   {
     "label": "低代码平台",
-    "desc": "使用Vue3+Pinia开发的低代码平台表单JSON渲染引擎",
+    "desc": "主导使用Vue3+Pinia研发的低代码平台表单JSON渲染引擎",
     "id": 6,
     "images": []
   },
@@ -245,7 +245,7 @@ export const projs = [
   },
   {
     "label": "雨思忆溯源小程序",
-    "desc": "小程序原生开发；后端使用PHP(Codeigniter) + SQLite + Redis",
+    "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Codeigniter) + SQLite + Redis",
     "id": 8,
     "images": [
       {
@@ -276,7 +276,7 @@ export const projs = [
   },
   {
     "label": "亨时利门店管理-门店管理小程序",
-    "desc": "小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
+    "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
     "id": 9,
     "images": [
       {
@@ -387,7 +387,7 @@ export const projs = [
   },
   {
     "label": "亨时利门店管理-会员小程序",
-    "desc": "小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
+    "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
     "id": 10,
     "images": [
       {
@@ -438,7 +438,7 @@ export const projs = [
   },
   {
     "label": "亨时利门店管理-PC端",
-    "desc": "前端使用Vue2+Vuex；后端使用PHP(Laravel) + MySQL + Redis",
+    "desc": "全栈开发 | 前端使用Vue2+Vuex；后端使用PHP(Laravel) + MySQL + Redis",
     "id": 11,
     "images": [
       {
@@ -501,7 +501,7 @@ export const projs = [
   },
   {
     "label": "亨时利-官网",
-    "desc": "后端使用PHP(Symfony) + MySQL + Redis",
+    "desc": "自主设计UI，参考多家名表官网。前端使用原生JS+JQ，后端使用PHP(Symfony) + MySQL + Redis",
     "url": "http://herrywatch.com",
     "id": 12,
     "images": []
