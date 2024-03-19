@@ -50,6 +50,15 @@
 
 <svelte:head>
 	<title>我的历史项目</title>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?a11eb888b25e1a90e131b22c5a2ca113";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </svelte:head>
 
 <main {style}>
