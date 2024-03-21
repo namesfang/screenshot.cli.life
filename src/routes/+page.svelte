@@ -65,7 +65,7 @@
 	<h1>历史项目展示</h1>
   <p>此页面由SvelteKit开发 部署在Cloudflare Pages服务上</p>
 	<ul>
-		{#each projs as { url, label, desc }, index}
+		{#each projs as { url, label, desc, images }, index}
 			<li>
 				<div class="md">
 					<h2>{label}</h2>
@@ -74,7 +74,7 @@
 				<div class="et">
 					{#if url}
           	<a target="_blank" href={url}>访问链接</a>
-					{:else}
+					{:else if images.length > 0}
 						<button on:click={() => toggle(index)} type="button">查看截图</button>
 					{/if}
 				</div>

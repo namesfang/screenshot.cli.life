@@ -505,5 +505,23 @@ export const projs = [
     "url": "http://herrywatch.com",
     "id": 12,
     "images": []
+  },
+  {
+    "label": "某地方人力资源招聘平台 - 技能人才端",
+    "desc": "全栈开发 | 小程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：职位浏览和企业信息、投简历、即时消息、个人简历维护等",
+    "id": 13,
+    "images": []
+  },
+  {
+    "label": "某地方人力资源招聘平台 - 企业端小程序",
+    "desc": "全栈开发 | 程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：发布职位、企业信息维护、即时消息",
+    "id": 14,
+    "images": []
+  },
+  {
+    "label": "某地方人力资源招聘平台 - PC管理端",
+    "desc": "全栈开发 | 前端使用Vue3+pinia；后端使用PHP(Symfony) + MySQL + Redis；企业管理、人才管理、资讯管理等",
+    "id": 15,
+    "images": []
   }
 ]

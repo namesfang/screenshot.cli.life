@@ -51,21 +51,18 @@ const projs = [
     desc: '自主设计UI，参考多家名表官网。前端使用原生JS+JQ，后端使用PHP(Symfony) + MySQL + Redis',
     url: 'http://herrywatch.com'
   },
-  // {
-  //   id: 11,
-  //   label: '技能人才端小程序',
-  //   desc: '小程序原生开发；后端使用PHP(Symfony) + MySQL + Redis'
-  // },
-  // {
-  //   id: 12,
-  //   label: '技能人才企业端小程序',
-  //   desc: '小程序原生开发；后端使用PHP(Symfony) + MySQL + Redis'
-  // },
-  // {
-  //   id: 13,
-  //   label: '技能人才',
-  //   desc: '前端使用Vue3+pinia；后端使用PHP(Symfony) + MySQL + Redis'
-  // }
+  {
+    label: '某地方人力资源招聘平台 - 技能人才端',
+    desc: '全栈开发 | 小程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：职位浏览和企业信息、投简历、即时消息、个人简历维护等'
+  },
+  {
+    label: '某地方人力资源招聘平台 - 企业端小程序',
+    desc: '全栈开发 | 程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：发布职位、企业信息维护、即时消息'
+  },
+  {
+    label: '某地方人力资源招聘平台 - PC管理端',
+    desc: '全栈开发 | 前端使用Vue3+pinia；后端使用PHP(Symfony) + MySQL + Redis；企业管理、人才管理、资讯管理等'
+  }
 ]
 
 projs.forEach((t, i) => {
