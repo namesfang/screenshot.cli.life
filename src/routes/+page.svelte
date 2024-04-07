@@ -74,7 +74,8 @@
 				<div class="et">
 					{#if url}
           	<a target="_blank" href={url}>访问链接</a>
-					{:else if images.length > 0}
+					{/if}
+					{#if images.length > 0}
 						<button on:click={() => toggle(index)} type="button">查看截图</button>
 					{/if}
 				</div>
@@ -160,7 +161,6 @@
 				}
 
 				.et {
-					width: 80px;
 					display: flex;
 					align-items: center;
 					a,

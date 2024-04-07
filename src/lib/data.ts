@@ -1,8 +1,72 @@
 export const projs = [
   {
+    "label": "指引者官网",
+    "desc": "使用前端框架 SvelteKit 开发 + Prisma + SQLite + Redis",
+    "url": "http://zhiyinzhe.com.cn/",
+    "id": 1,
+    "images": [
+      {
+        "src": "images/指引者官网/后台-栏目-添加.png",
+        "alt": "后台-栏目-添加.png"
+      },
+      {
+        "src": "images/指引者官网/后台.png",
+        "alt": "后台.png"
+      },
+      {
+        "src": "images/指引者官网/栏目.png",
+        "alt": "栏目.png"
+      },
+      {
+        "src": "images/指引者官网/联系我们.png",
+        "alt": "联系我们.png"
+      },
+      {
+        "src": "images/指引者官网/详情.png",
+        "alt": "详情.png"
+      },
+      {
+        "src": "images/指引者官网/首页.png",
+        "alt": "首页.png"
+      }
+    ]
+  },
+  {
+    "label": "中华诗词网",
+    "desc": "独立设计并开发，已开源到 github，使用前端框架 SvelteKit 开发 + Prisma + SQLite + Redis",
+    "url": "http://shici.cli.life/",
+    "id": 2,
+    "images": [
+      {
+        "src": "images/中华诗词网/用户.png",
+        "alt": "用户.png"
+      },
+      {
+        "src": "images/中华诗词网/用户中心.png",
+        "alt": "用户中心.png"
+      },
+      {
+        "src": "images/中华诗词网/诗词列表.png",
+        "alt": "诗词列表.png"
+      },
+      {
+        "src": "images/中华诗词网/诗词搜索.png",
+        "alt": "诗词搜索.png"
+      },
+      {
+        "src": "images/中华诗词网/诗词详情.png",
+        "alt": "诗词详情.png"
+      },
+      {
+        "src": "images/中华诗词网/首页.png",
+        "alt": "首页.png"
+      }
+    ]
+  },
+  {
     "label": "房屋租赁平台-管家端App",
     "desc": "主导开发使用UniApp(Vue3+pinia)实现一套代码发布安卓和IOS(已上架到appstore)",
-    "id": 1,
+    "id": 3,
     "images": [
       {
         "src": "images/房屋租赁平台-管家端App/业主合同列表.jpg",
@@ -77,7 +141,7 @@ export const projs = [
   {
     "label": "房屋租赁平台-维修服务",
     "desc": "使用小程序原生开发(ts+scss)",
-    "id": 2,
+    "id": 4,
     "images": [
       {
         "src": "images/房屋租赁平台-维修服务/工单列表.jpg",
@@ -108,7 +172,7 @@ export const projs = [
   {
     "label": "房屋租赁平台-地图找房",
     "desc": "使用原生js+webpack5打包应用；APP端使用webview引入",
-    "id": 3,
+    "id": 5,
     "images": [
       {
         "src": "images/房屋租赁平台-地图找房/以楼栋.png",
@@ -147,7 +211,7 @@ export const projs = [
   {
     "label": "房屋租赁平台-官网",
     "desc": "独立开发 | 使用Nuxtjs开发，对SEO友好支持",
-    "id": 4,
+    "id": 6,
     "images": [
       {
         "src": "images/房屋租赁平台-官网/地图找房.jpg",
@@ -174,7 +238,7 @@ export const projs = [
   {
     "label": "房屋租赁平台-PC端",
     "desc": "使用Vue3+TS+Pinia",
-    "id": 5,
+    "id": 7,
     "images": [
       {
         "src": "images/房屋租赁平台-PC端/分散式.png",
@@ -209,13 +273,13 @@ export const projs = [
   {
     "label": "低代码平台",
     "desc": "主导使用Vue3+Pinia研发的低代码平台表单JSON渲染引擎",
-    "id": 6,
+    "id": 8,
     "images": []
   },
   {
     "label": "电子名片",
     "desc": "小程序原生开发；使用腾讯OCR识别",
-    "id": 7,
+    "id": 9,
     "images": [
       {
         "src": "images/电子名片/名片管理.jpg",
@@ -246,7 +310,7 @@ export const projs = [
   {
     "label": "雨思忆溯源小程序",
     "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Codeigniter) + SQLite + Redis",
-    "id": 8,
+    "id": 10,
     "images": [
       {
         "src": "images/雨思忆溯源小程序/产品列表.jpg",
@@ -277,7 +341,7 @@ export const projs = [
   {
     "label": "亨时利门店管理-门店管理小程序",
     "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
-    "id": 9,
+    "id": 11,
     "images": [
       {
         "src": "images/亨时利门店管理-门店管理小程序/人员列表.jpg",
@@ -388,7 +452,7 @@ export const projs = [
   {
     "label": "亨时利门店管理-会员小程序",
     "desc": "全栈开发 自已设计原型 | 小程序原生开发；后端使用PHP(Laravel) + MySQL + Redis",
-    "id": 10,
+    "id": 12,
     "images": [
       {
         "src": "images/亨时利门店管理-会员小程序/个人资料.jpg",
@@ -439,7 +503,7 @@ export const projs = [
   {
     "label": "亨时利门店管理-PC端",
     "desc": "全栈开发 | 前端使用Vue2+Vuex；后端使用PHP(Laravel) + MySQL + Redis",
-    "id": 11,
+    "id": 13,
     "images": [
       {
         "src": "images/亨时利门店管理-PC端/品牌管理.png",
@@ -503,25 +567,25 @@ export const projs = [
     "label": "亨时利-官网",
     "desc": "自主设计UI，参考多家名表官网。前端使用原生JS+JQ，后端使用PHP(Symfony) + MySQL + Redis",
     "url": "http://herrywatch.com",
-    "id": 12,
+    "id": 14,
     "images": []
   },
   {
     "label": "某地方人力资源招聘平台 - 技能人才端",
     "desc": "全栈开发 | 小程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：职位浏览和企业信息、投简历、即时消息、个人简历维护等",
-    "id": 13,
+    "id": 15,
     "images": []
   },
   {
     "label": "某地方人力资源招聘平台 - 企业端小程序",
     "desc": "全栈开发 | 程序原生开发；后端使用PHP(Symfony) + MySQL + Redis；核心功能有：发布职位、企业信息维护、即时消息",
-    "id": 14,
+    "id": 16,
     "images": []
   },
   {
     "label": "某地方人力资源招聘平台 - PC管理端",
     "desc": "全栈开发 | 前端使用Vue3+pinia；后端使用PHP(Symfony) + MySQL + Redis；企业管理、人才管理、资讯管理等",
-    "id": 15,
+    "id": 17,
     "images": []
   }
 ]

@@ -3,6 +3,16 @@ import { join } from 'node:path'
 
 const projs = [
   {
+    label: '指引者官网',
+    desc: '使用前端框架 SvelteKit 开发 + Prisma + SQLite + Redis',
+    url: 'http://zhiyinzhe.com.cn/'
+  },
+  {
+    label: '中华诗词网',
+    desc: '独立设计并开发，已开源到 github，使用前端框架 SvelteKit 开发 + Prisma + SQLite + Redis',
+    url: 'http://shici.cli.life/'
+  },
+  {
     label: '房屋租赁平台-管家端App',
     desc: '主导开发使用UniApp(Vue3+pinia)实现一套代码发布安卓和IOS(已上架到appstore)'
   },
